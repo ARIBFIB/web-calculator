@@ -110,4 +110,3 @@ Feel free to reach out if you have any questions or suggestions!
 
 ---
 
-This description includes headings, bullet points, icons, and links to make it visually appealing and easy to navigate. Be sure to replace placeholders like `link-to-screenshot.png`, `yourusername`, and `yourname@example.com` with your actual data.
