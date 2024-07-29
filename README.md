@@ -25,7 +25,21 @@ Welcome to the Calculator project! This calculator is designed with a modern and
 
 ## 📸 Screenshots
 
-![Calculator Screenshot](link-to-screenshot.png)
+![image](https://github.com/user-attachments/assets/917df0de-7071-4fa9-aca2-e1142454dbcf)
+
+![image](https://github.com/user-attachments/assets/69df936c-50e1-4877-b87e-4ee6fe2e30c3)
+
+![image](https://github.com/user-attachments/assets/8c4de979-18eb-4233-a769-cc4e02b66dee)
+
+![image](https://github.com/user-attachments/assets/e4344b20-7ea8-492e-a07c-b041cd83a603)
+
+![image](https://github.com/user-attachments/assets/20991b75-0869-459c-95d2-c76e27d32957)
+
+![image](https://github.com/user-attachments/assets/59b4cd10-cc50-4f30-975c-28feb46fc6e1)
+
+![image](https://github.com/user-attachments/assets/8bd283e0-b85c-4755-a18b-111da98b700d)
+
+![image](https://github.com/user-attachments/assets/673f4fdc-b763-47a5-b1e8-5e60e93f5a4f)
 
 ## 🛠️ Technologies Used
 
@@ -80,8 +94,14 @@ Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) fo
 
 ## 📞 Contact
 
-- **Email**: yourname@example.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
+Feel free to reach out if you have any questions or suggestions!
+
+- **Email**: abdulrehman286ib@gmail.com
+- **GitHub**: [ARIBFIB]([https://github.com/your-username](https://github.com/ARIBFIB?tab=repositories))
+- **Developer**:  Abdul Rehman Irfan
+- **Contact**: 03360592060
+- **LinkedIn**: [03360592060](https://www.linkedin.com/in/abdul-rehman-irfan-6454952a3/)
+
 
 ## ⭐ Acknowledgments
 
