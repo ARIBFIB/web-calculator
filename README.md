@@ -5,7 +5,7 @@ Here's a comprehensive and visually appealing description for your calculator pr
 
 ---
 
-# 🧮 Calculator
+# ௹📱(❁´◡`❁) Calculator ✅
 ![Calculator](https://img.shields.io/badge/Calculator-html-blue.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)
