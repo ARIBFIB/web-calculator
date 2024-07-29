@@ -10,7 +10,8 @@ Here's a comprehensive and visually appealing description for your calculator pr
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Contributions](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg)
 
-![Calculator Screenshot](link-to-screenshot.png)
+![Calculator Screenshot](![image](https://github.com/user-attachments/assets/9e0a26cd-0d77-40eb-9be7-87ad2b3298ce)
+)
 
 ## 🚀 Overview
 
