@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cal_Style.css">
+    <script src="cal_javascript.js" defer></script>
+</head>
+<body>
+    <main class="main">
+    <div class="calculator">
+        <!-- <input class="Display" id="display" type="text" name="display" readonly> -->
+        <div class="Display">
+            <div class="screen">
+                <div class="screen-last" id="lastOperationScreen"></div>
+                <div class="screen-current" id="currentOperationScreen">0</div>
+            </div>
+        </div>
+    <div class="wrapper">
+        <div class="thirtysix" onclick="this.blur();" data-number>7</div>
+        <div class="thirtyseven" onclick="this.blur();" data-number>8</div>
+        <div class="thirtyeight" onclick="this.blur();" data-number>9</div>
+        <div class="thirtynine" onclick="this.blur();" id="deleteBtn">DEL</div>
+        <div class="forty" onclick="this.blur();" id="clearBtn">AC</div>
+        <div class="fortyone" onclick="this.blur();" data-number>4</div>
+        <div class="fortytwo" onclick="this.blur();" data-number>5</div>
+        <div class="fortythree" onclick="this.blur();" data-number>6</div>
+        <div class="fortyfour" onclick="this.blur();" data-operator>X</div>
+        <div class="fortyfive" onclick="this.blur();" data-operator>÷</div>
+        <div class="fortysix" onclick="this.blur();" data-number>1</div>
+        <div class="fortyseven" onclick="this.blur();" data-number>2</div>
+        <div class="fortyeight" onclick="this.blur();" data-number>3</div>
+        <div class="fortynine" onclick="this.blur();" data-operator>+</div>
+        <div class="fifty" onclick="this.blur();" data-operator>-</div>
+        <div class="fiftyone" onclick="this.blur();" data-number>0</div>
+        <div class="fiftytwo" onclick="this.blur();" id="pointBtn">.</div>
+        <div class="fiftythree" onclick="this.blur();" id="TentoPower">x 10<span class="sup">x</span></div>
+        <div class="fiftyfour" onclick="this.blur();" id="ansBtn">Ans</div>
+        <div class="fiftyfive" onclick="this.blur();" id="equalsBtn">=</div>
+    </div>
+</div>
+</main>
+
+</body>
+</html>
