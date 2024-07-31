@@ -19,6 +19,7 @@
     height: 130px;
     margin: 25px auto;
     font-size: 40px;
+    overflow: hidden;
     display: block;
     padding: 0 10px;
     border-radius: 4px;
@@ -36,19 +37,23 @@
     border-radius: 5px;
     margin-bottom: 20px;
     background-color: var(--screen);
-    text-align: right;
+    text-align: left;
     word-wrap: break-word;
-    word-break: break-all;
+    word-break: keep-all;
   }
   
   .screen-last {
-    min-height: 32px;
-    font-size: 20px;
+    min-height: 0px;
+    font-size: 40px;
   }
   
   .screen-current {
     min-height: 64px;
     font-size: 40px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: right;
   }
   
   .buttons-grid {
@@ -61,24 +66,52 @@
     grid-column: span 2;
   }
 
-.wrapper :hover{
-    cursor: pointer;
-    background-color: #687182;
-    box-shadow: 0px 0px 2px #687182,
-    inset 0px -20px 1px #555a64; 
-    border-top: 2px solid #C1C1C1;
-    border-bottom: 2px solid #4d4e4e;
-    border-right: 2px solid #C1C1C1;
-    border-left: 2px solid #4d4e4e;
-}
-
 .wrapper {
     display: grid;
     margin-top: -690px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: repeat(11, 100px);
 }
-
+.wrapper :hover{
+    cursor: pointer;
+    background-color: #687182;
+	box-shadow: 3px 2px 2px #687182, inset 0px -20px 1px #555a64;
+    border-top: 2px solid #C1C1C1;
+    border-bottom: 2px solid #4d4e4e;
+    border-right: 2px solid #C1C1C1;
+    user-select: none;
+    border-left: 2px solid #4d4e4e;
+}
+.wrapper :active{
+    cursor: pointer;
+    background-color: #687182;
+    box-shadow: 0px 0px 4px #687182, inset 0px -20px 1px #555a64; 
+    border-bottom: 2px solid #C1C1C1;
+    border-top: 2px solid #4d4e4e;
+    border-left: 2px solid #C1C1C1;
+    user-select: none;
+    border-right: 2px solid #4d4e4e;
+}
+/* .wrapper .thirtynine:hover, .forty:hover{
+    background-color: #FFBA75;
+	box-shadow: 3px 2px 2px #030303, inset 0px -20px 1px #FF8000;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #AE5700;
+	border-left: 2px solid #AE5700;
+    user-select: none;
+}
+.wrapper .thirtynine:active, .forty:active {
+    background-color: #FFBA75;
+    box-shadow: 0px 0px 4px #FF8000, inset 0px -20px 1px #FF8000;
+    border-top: 2px solid #AE5700;
+    border-right: 2px solid #AE5700;
+    border-bottom: 2px solid #FFF;
+    border-left: 2px solid #FFF;
+    transform: scale(0.95);
+    user-select: none;
+    transition: all 0.1s ease-in-out;
+} */
 
 
 .twentysix{
@@ -91,9 +124,11 @@
     width: 70px;
     font-size: 40px;
     height: 50px;
+    user-select: none;
     grid-row: 6;
     grid-column: 1;
 }
+
 
 
 .twentyseven{
@@ -101,6 +136,7 @@
     border-radius: 10px;
     border: 1.1px solid #121b2a;
     text-align: center;
+    user-select: none;
     color: aliceblue;
     align-self: center;
     width: 70px;
@@ -111,6 +147,7 @@
 }.twentyeight{
     background-color: #8692a0;
     border-radius: 10px;
+    user-select: none;
     border: 1.1px solid #121b2a;
     text-align: center;
     color: aliceblue;
@@ -127,6 +164,7 @@
     text-align: center;
     color: aliceblue;
     align-self: center;
+    user-select: none;
     width: 70px;
     font-size: 40px;
     height: 50px;
@@ -138,6 +176,7 @@
     border: 1.1px solid #121b2a;
     text-align: center;
     color: aliceblue;
+    user-select: none;
     align-self: center;
     width: 70px;
     font-size: 40px;
@@ -152,6 +191,7 @@
     text-align: center;
     color: aliceblue;
     align-self: center;
+    user-select: none;
     width: 70px;
     font-size: 40px;
     height: 50px;
@@ -164,6 +204,7 @@
     border-radius: 10px;
     border: 1.1px solid #121b2a;
     text-align: center;
+    user-select: none;
     color: aliceblue;
     align-self: center;
     width: 70px;
@@ -175,6 +216,7 @@
     background-color: #8692a0;
     border-radius: 10px;
     border: 1.1px solid #121b2a;
+    user-select: none;
     text-align: center;
     color: aliceblue;
     align-self: center;
@@ -188,6 +230,7 @@
     border-radius: 10px;
     border: 1.1px solid #121b2a;
     text-align: center;
+    user-select: none;
     color: aliceblue;
     align-self: center;
     width: 70px;
@@ -200,6 +243,7 @@
     border-radius: 10px;
     border: 1.1px solid #121b2a;
     text-align: center;
+    user-select: none;
     color: aliceblue;
     align-self: center;
     width: 70px;
@@ -214,6 +258,7 @@
     text-align: center;
     color: aliceblue;
     align-self: center;
+    user-select: none;
     width: 70px;
     font-size: 40px;
     height: 50px;
@@ -226,6 +271,7 @@
     border: 1.1px solid #121b2a;
     text-align: center;
     color: aliceblue;
+    user-select: none;
     align-self: center;
     width: 70px;
     font-size: 40px;
@@ -240,6 +286,7 @@
     border: 1.1px solid #121b2a;
     text-align: center;
     color: aliceblue;
+    user-select: none;
     align-self: center;
     width: 70px;
     font-size: 40px;
@@ -253,6 +300,7 @@
     border: 1.1px solid #121b2a;
     text-align: center;
     color: aliceblue;
+    user-select: none;
     align-self: center;
     width: 70px;
     font-size: 40px;
@@ -263,6 +311,7 @@
     background-color: #8692a0;
     border-radius: 10px;
     border: 1.1px solid #121b2a;
+    user-select: none;
     text-align: center;
     color: aliceblue;
     align-self: center;
@@ -279,6 +328,7 @@
     color: #545858;
     align-self: center;
     width: 70px;
+    user-select: none;
     padding-top: 7px;
     font-size: 28px;
     height: 50px;
@@ -287,20 +337,25 @@
 }
 .wrapper .thirtynine:hover, .forty:hover{
     background-color: #FFBA75;
-	box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #FF8000;
+	box-shadow: 3px 2px 2px #030303, inset 0px -20px 1px #FF8000;
 	border-top: 2px solid #FFF;
 	border-right: 2px solid #FFF;
 	border-bottom: 2px solid #AE5700;
 	border-left: 2px solid #AE5700;
+    user-select: none;
 }
-.wrapper .thirtynine:active, .forty:active{
-    background-color: #b7834f;
-	box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #FF8000;
-	border-top: 2px solid #FFF;
-	border-right: 2px solid #FFF;
-	border-bottom: 2px solid #AE5700;
-	border-left: 2px solid #AE5700;
+.wrapper .thirtynine:active, .forty:active {
+    background-color: #FFBA75;
+    box-shadow: 0px 0px 4px #FF8000, inset 0px -20px 1px #FF8000;
+    border-top: 2px solid #AE5700;
+    border-right: 2px solid #AE5700;
+    border-bottom: 2px solid #FFF;
+    border-left: 2px solid #FFF;
+    transform: scale(0.95);
+    user-select: none;
+    transition: all 0.1s ease-in-out;
 }
+
 
 
 
@@ -313,6 +368,7 @@
     align-self: center;
     padding-top: 7px;
     width: 70px;
+    user-select: none;
     font-size: 28px;
     height: 50px;
     grid-row: 8;
@@ -324,6 +380,7 @@
     border: 1.1px solid #121b2a;
     text-align: center;
     color: aliceblue;
+    user-select: none;
     align-self: center;
     width: 70px;
     font-size: 40px;
@@ -334,6 +391,7 @@
     background-color: #8692a0;
     border-radius: 10px;
     border: 1.1px solid #121b2a;
+    user-select: none;
     text-align: center;
     color: aliceblue;
     align-self: center;
@@ -346,6 +404,7 @@
     background-color: #8692a0;
     border-radius: 10px;
     border: 1.1px solid #121b2a;
+    user-select: none;
     text-align: center;
     color: aliceblue;
     align-self: center;
@@ -358,6 +417,7 @@
     background-color: #8692a0;
     border-radius: 10px;
     border: 1.1px solid #121b2a;
+    user-select: none;
     text-align: center;
     color: aliceblue;
     align-self: center;
@@ -371,6 +431,7 @@
     border-radius: 10px;
     border: 1.1px solid #121b2a;
     text-align: center;
+    user-select: none;
     color: aliceblue;
     align-self: center;
     width: 70px;
@@ -385,6 +446,7 @@
     border: 1.1px solid #121b2a;
     text-align: center;
     color: aliceblue;
+    user-select: none;
     align-self: center;
     width: 70px;
     font-size: 40px;
@@ -397,6 +459,7 @@
     border-radius: 10px;
     border: 1.1px solid #121b2a;
     text-align: center;
+    user-select: none;
     color: aliceblue;
     align-self: center;
     width: 70px;
@@ -410,6 +473,7 @@
     border-radius: 10px;
     border: 1.1px solid #121b2a;
     text-align: center;
+    user-select: none;
     color: aliceblue;
     align-self: center;
     width: 70px;
@@ -422,6 +486,7 @@
     background-color: #8692a0;
     border-radius: 10px;
     border: 1.1px solid #121b2a;
+    user-select: none;
     text-align: center;
     color: aliceblue;
     align-self: center;
@@ -434,6 +499,7 @@
 .fifty{
     background-color: #8692a0;
     border-radius: 10px;
+    user-select: none;
     border: 1.1px solid #121b2a;
     text-align: center;
     color: aliceblue;
@@ -452,6 +518,7 @@
     color: aliceblue;
     font-size: 40px;
     grid-row: 11;
+    user-select: none;
     grid-column: 1;
     align-self: center;
     width: 70px;
@@ -464,6 +531,7 @@
     border: 1.1px solid #121b2a;
     text-align: center;
     color: aliceblue;
+    user-select: none;
     font-size: 40px;
     align-self: center;
     width: 70px;
@@ -477,6 +545,7 @@
     border: 1.1px solid #121b2a;
     padding-top: 10px;
     padding-left: 5px;
+    user-select: none;
     text-align: center;
     color: aliceblue;
     align-self: center;
@@ -498,6 +567,7 @@
     text-align: center;
     color: aliceblue;
     align-self: center;
+    user-select: none;
     width: 70px;
     font-size: 40px;
     height: 50px;
@@ -510,6 +580,7 @@
     border: 1.1px solid #121b2a;
     text-align: center;
     color: aliceblue;
+    user-select: none;
     align-self: center;
     width: 70px;
     font-size: 40px;
